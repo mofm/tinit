@@ -10,18 +10,15 @@ tinit, basic and tiny init for microvm, it's a valid init, but it's not a full i
 - It runs the user specified command.
 
 ## Compile from source
-- You need to install the following packages:
-  - `make`
-  - `gcc`
-  - `git`
-  
+
 - Clone the repository:
 ```
 git clone https://github.com/mofm/tinit.git
 ```
 
-- You can edit the `Makefile` to change the installation directory or CFLAGS or etc.
-- Compile:
+- Build the binary:
 ```
-make
+$ ./autogen.sh (only first time)
+$ ./configure
+$ make
 ```
